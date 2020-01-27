@@ -2,11 +2,11 @@ Dockerfile-gox
 ====
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][LICENSE]
-[![Docker Pulls](https://img.shields.io/docker/pulls/tcnksm/gox.svg?style=flat-square)][dockerhub]
+[![Docker Pulls](https://img.shields.io/docker/pulls/tazhate/dockerfile-gox.svg?style=flat-square)][dockerhub]
+![docker](https://github.com/tazhate/dockerfile-gox/workflows/docker/badge.svg)
 
 [LICENSE]: https://github.com/tcnksm/dockerfile-gox/blob/master/LICENCE
 [dockerhub]: https://registry.hub.docker.com/u/tazhate/dockerfile-gox/
-![docker](https://github.com/tazhate/dockerfile-gox/workflows/docker/badge.svg)
 
 Dockerfile for Cross-compiling golang project with [mitchellh/gox](https://github.com/mitchellh/gox).
 

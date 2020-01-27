@@ -9,6 +9,8 @@ Dockerfile-gox
 
 Dockerfile for Cross-compiling golang project with [mitchellh/gox](https://github.com/mitchellh/gox).
 
+![docker](https://github.com/tazhate/dockerfile-gox/workflows/docker/badge.svg)
+
 ## Description
 
 [docker-library/golang](https://github.com/docker-library/golang) (Docker official golang stack) also support image for cross-compile. With `Dockerfile-gox`, You can cross-compile your golang project parallelly. It's more fast when compiling for multiple platform.

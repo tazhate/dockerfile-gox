@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM ubuntu:bionic
 
 RUN apt-get update -y && apt-get install --no-install-recommends -y -q \
                          curl \
